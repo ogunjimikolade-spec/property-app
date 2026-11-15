@@ -1,0 +1,82 @@
+[
+  {
+    "owner": "1",
+    "name": "Lekki Luxury Apartments",
+    "type": "Apartment",
+    "description": "Beautiful apartment near Boston Commons. 10-min walk to downtown. Modern living with amazing views, recently renovated.",
+    "location": {
+      "street": "15 Admiralty way",
+      "city": "Lekki",
+      "state": "Lagos",
+      "zipcode": "02108"
+    },
+    "beds": 3,
+    "baths": 2,
+    "square_feet": 1500,
+    "amenities": ["Wifi", "Full kitchen", "Washer & Dryer", "Free Parking", "Hot Tub", "24/7 Security", "Wheelchair Accessible", "Elevator Access", "Dishwasher", "Gym/Fitness Center", "Air Conditioning", "Balcony/Patio"],
+    "rates": { "nightly": 350, "weekly": 2000, "monthly": 5500 },
+    "seller_info": { "name": "John Doe", "email": "john@gmail.com", "phone": "617-555-5555" },
+    "images": ["a1.jpg","a2.jpg","a3.jpg","a4.jpg"],
+    "is_featured": true
+  },
+  {
+    "owner": "1",
+    "name": "High Terrace",
+    "type": "Loft",
+    "description": "Cozy downtown loft perfect for city living. Close to restaurants and nightlife.",
+    "location": {
+      "street": "45 Main St",
+      "city": "Ajah",
+      "state": "Lagos",
+      "zipcode": "10001"
+    },
+    "beds": 1,
+    "baths": 1,
+    "square_feet": 900,
+    "amenities": ["Wifi", "Full kitchen", "Washer & Dryer", "Balcony/Patio", "Air Conditioning", "Smart TV"],
+    "rates": { "nightly": 200, "weekly": 1200, "monthly": 3000 },
+    "seller_info": { "name": "Jane Smith", "email": "jane@gmail.com", "phone": "212-555-1234" },
+    "images": ["b1.jpg","b2.jpg","b3.jpg"],
+    "is_featured": false
+  },
+  {
+    "owner": "1",
+    "name": "Luxury Condo in Miami Beach",
+    "type": "Condo",
+    "description": "Luxury ocean-view condo with resort-style amenities. Steps from the beach.",
+    "location": {
+      "street": "100 Ocean Dr",
+      "city": "Ikeja",
+      "state": "Lagos",
+      "zipcode": "33139"
+    },
+    "beds": 4,
+    "baths": 3,
+    "square_feet": 2200,
+    "amenities": ["Wifi", "Pool", "Hot Tub", "Gym/Fitness Center", "Air Conditioning", "Free Parking", "Balcony/Patio", "Beach Access"],
+    "rates": { "nightly": 600, "weekly": 3500, "monthly": 10000 },
+    "seller_info": { "name": "Carlos Rivera", "email": "carlos@gmail.com", "phone": "305-555-7890" },
+    "images": ["c1.jpg","c2.jpg","c3.jpg","c4.jpg"],
+    "is_featured": true
+  },
+  {
+    "owner": "1",
+    "name": "Rustic Cabin in Woods",
+    "type": "Cabin",
+    "description": "Get away from it all in this rustic cabin. Perfect for hiking and nature.",
+    "location": {
+      "street": "200 Forest Ln",
+      "city": "Lekki-Phase-II",
+      "state": "Lagos",
+      "zipcode": "10001"
+    },
+    "beds": 2,
+    "baths": 1,
+    "square_feet": 800,
+    "amenities": ["Fireplace", "Full kitchen", "Free Parking", "Hiking Trails", "Pet Friendly"],
+    "rates": { "nightly": 150, "weekly": 900, "monthly": 2500 },
+    "seller_info": { "name": "Emily Woods", "email": "emily@gmail.com", "phone": "828-555-4567" },
+    "images": ["d1.jpg","d2.jpg","d3.jpg"],
+    "is_featured": false
+  }
+]
