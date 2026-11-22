@@ -10,7 +10,7 @@ import UnreadMessageCount from "./UnreadMessageCount";
 import SignOutButton from "./SignOutButton";
 const Navbar = () => {
   const { data: session } = useSession();
-  console.log(session);
+  
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProfileOpen, setIsProfileOpen] = useState(false);
   const [providers, setProviders] = useState(null);

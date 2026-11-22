@@ -1,3 +1,4 @@
+"use client"
 import PropertyAddForm from '@/component/PropertyAddForm'
 import React from 'react'
 
