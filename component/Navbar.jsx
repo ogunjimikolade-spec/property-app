@@ -129,7 +129,7 @@ const Navbar = () => {
                   Object.values(providers).map((provider,index) => (
                     <a
                       key={index}
-                      onClick={() => window.location.href = `/api/auth/signin/${provider.id}`}
+                       href = {`/api/auth/signin/${provider.id}`}
                       className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
                     >
                       <FaGoogle className="mr-2" />
